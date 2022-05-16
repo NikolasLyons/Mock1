@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body.debug .container,
+      body.debug .container-fluid {
+        outline: 2px double blue;
+        outline-offset: -2px;
+      }
+
+      body.debug .row {
+        outline: 2px dashed red;
+        outline-offset: -2px;
+      }
+
+      body.debug [class*="col-"] {
+        outline: 2px dotted forestgreen;
+        outline-offset: -3px;
+      }
+    </style>
+
+    <title>Checkpoint1</title>
+  </head>
+  <body class="font-family">
+    <div class="row checkpoint-head sticky-top p-2">
+      <div class="col-12 text-light">
+       <i class="mdi mdi-home p-3">Home</i>
+       <i class="mdi mdi-account p-3">Account</i>
+       <i class="mdi mdi-storefront p-3">Shop</i>
+       <i class="mdi mdi-cart p-3">Checkout</i>
+       <i class="mdi mdi-cog p-3">settings</i>
+      </div>
+    </div>
+    <header class="container-fluid bg-header-img">
+      <div class="row p-3 d-flex justify-content-between">
+        <div class="col-6 form card">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class=" col-12 col-md-6 text-light header-text">
+          <h1>My Checkpoint</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            ratione soluta maiores at sunt, ut architecto provident explicabo
+            quaerat corrupti fugiat neque tenetur excepturi obcaecati cumque,
+            minus dicta quisquam veniam.
+          </p>
+        </div>
+      </div>
+    </header>
+    <main class="container-fluid">
+      <div class="row text-light bg-dark info justify-content-between align-items-center">
+        <div class="col-4 d-flex col-md-6 d-md-block skills p-2">
+          <h3>Perks</h3>
+            <p><i class="mdi mdi-fire"></i>We have the Best Shoes in the valley</p>
+            <p><i class="mdi mdi-shield-check"></i>All shoes are authentic and go through authentification process</p>
+            <p><i class="mdi mdi-account"></i>Best costumer service</p>
+            <p><i class="mdi mdi-cash"></i>we offer the best prices</p>
+            <p><i class="mdi mdi-truck-fast"></i>Delivery options available</p>
+        </div>
+        <div class="col-4 d-flex col-md-6 d-md-block text-center p-2 m-2">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            blanditiis error consectetur eligendi quasi quis, doloribus
+            reiciendis aliquid harum nam deserunt. Maiores rerum quibusdam
+            explicabo officia suscipit incidunt autem amet. Reiciendis fugit
+            saepe placeat eligendi voluptate ducimus quam minus minima sint at?
+            Ad, architecto. At vero nemo molestiae, omnis quis ipsum ducimus
+            accusamus optio fugiat saepe quasi vitae ratione! Consectetur!
+          </p>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-12 col-md-6">
+          <img class="img-fluid wire-shoes" src="/yalamber-limbu-DS2ZIDNxWgk-unsplash.jpg" alt="shoes on the line">
+        </div>
+        <div class="col-6 algin-text-baseline">
+          <i class="mdi mdi-shield-check shield-check"></i>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            voluptatem animi voluptas voluptates delectus asperiores atque natus
+            voluptatibus veritatis rerum illo, est alias? Voluptatum explicabo
+            saepe ex obcaecati doloribus non.</p> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            voluptatem animi voluptas voluptates delectus asperiores atque natus
+            voluptatibus veritatis rerum illo, est alias? Voluptatum explicabo
+            saepe ex obcaecati doloribus non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus id optio praesentium doloremque ratione voluptatem officia eius doloribus ut? Possimus, voluptatum alias deleniti in quasi culpa excepturi. Tempore, eos sequi.
+            Laudantium amet quibusdam quos mollitia itaque! Quas architecto autem at obcaecati magni ipsa expedita eaque reiciendis minima, odit, sint vero sed nostrum quae deleniti unde!</p>
+        </div>
+      </div>
+      <div class="row justify-content-between align-content-between text-center bg-dark p-5">
+        <div class="order-md-2 col-4 col-md-6 align-items-center card text-center p-2 m-2 rounded shadow">
+          <div class="flex-row">
+            <i class="mdi mdi-star-circle"></i>
+            <i class="mdi mdi-star-circle star-middle"></i>
+            <i class="mdi mdi-star-circle"></i>
+            <!-- <span style="font-size:300%;color:yellow;">&starf;</span>
+            <span style="font-size:350%;color:yellow;">&starf;</span>
+            <span style="font-size:300%;color:yellow;">&starf;</span> -->
+          </div>
+          <p>Name</p>
+          <p style="margin: -12px;"><i class="mdi mdi-format-quote-open"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, veritatis. Explicabo provident placeat, quas tempore dolorum non dolorem debitis porro quia maxime cumque, ex reprehenderit quae ab dolore in possimus!"</p>
+        </div>
+        <div class="col-md-8  align-items-center card p-2 m-2">
+          <p>Name</p>
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, veritatis. Explicabo provident placeat, quas tempore dolorum non dolorem debitis porro quia maxime cumque, ex reprehenderit quae ab dolore in possimus!"</p>
+        </div>
+        <div class="order-sm-3 col-md-8 align-items-center card p-2 m-2"><p>Name</p>
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, veritatis. Explicabo provident placeat, quas tempore dolorum non dolorem debitis porro quia maxime cumque, ex reprehenderit quae ab dolore in possimus!"</p></div>
+      </div>
+      <div class="row">
+        
+      </div>
+    </main>
+    <footer class="container-fluid text-light">
+      <div class="row d-flex">
+        <div class="col-12 text-center mt-2">
+          <Form>
+            <label for="raffel">Enter Name to Win a pair of shoes</label>
+            <input type="text" value="Name" id="raffel">
+          </Form>
+        </div>
+      </div>
+      <div class="row justify-content-center align-content-end  pt-8">
+        <div class="col-md-6 text-center">
+          Follow us on social media
+        </div>
+        <div class="col-md-6 text-center">
+          <i class="mdi mdi-twitter footer-icon p-2" style="font-size: 20px"></i>
+          <i class="mdi mdi-instagram footer-icon p-2" style="font-size: 20px"></i>
+          <i class="mdi mdi-facebook footer-icon p-2" style="font-size: 20px"></i>
+          <i class="mdi mdi-pinterest footer-icon p-2" style="font-size: 20px"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

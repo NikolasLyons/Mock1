@@ -1,0 +1,93 @@
+body {
+  /* margin: 0px; */
+  font-family: 'Luckiest Guy', cursive;
+}
+.checkpoint-head {
+  background-color: rgb(113, 34, 34);
+}
+.mdi:hover{
+  background-color: rgb(114, 64, 64);
+
+}
+
+.bg-header-img {
+  background-image: url(https://images.unsplash.com/photo-1513188732907-5f732b831ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80);
+  min-height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.card {
+  background-color: whitesmoke;
+  height: 15rem;
+  width: 20rem;
+  align-items: baseline;
+}
+.message {
+  height: 6rem;
+}
+form {
+  color: rgb(165, 163, 163);
+}
+
+.skills {
+  position: absolute;
+  height: 20rem;
+  width: auto;
+  border-radius: 10px;
+  background-color: rgb(113, 34, 34);
+  right: 1em;
+    bottom: -7%;
+  
+}
+
+.shoes{
+  background-size: cover;
+}
+
+.info{
+  height: 20rem;
+}
+
+img{
+  height: 50vh;
+  padding: 5px;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.star-middle{
+  size: 20px;
+}
+
+.wire-shoes{
+  height: 550px;
+  width: 400px;
+  padding: 2em;
+  border-radius: 50px;
+}
+
+footer{
+  background-color: rgb(113, 34, 34);
+  height: 150px;
+}
+
+footer-icon{
+  color: aliceblue;
+  size: 10px;
+}
+
+@media (max-width: 756px) {
+  .header-text{
+    display: none;
+  }
+  .skills{
+   position: unset;
+   display: block;
+  }
+}
+
+.shield-check{
+  color: green;
+  size: 20px;
+}
