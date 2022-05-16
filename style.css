@@ -19,10 +19,17 @@ body {
 
 .card {
   background-color: whitesmoke;
-  height: 15rem;
+  min-height: 15rem;
   width: 20rem;
   align-items: baseline;
 }
+
+.center-card{
+  padding-top: 5em !important; 
+  padding-bottom: 5em !important;
+
+}
+
 .message {
   height: 6rem;
 }
